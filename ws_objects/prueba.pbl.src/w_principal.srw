@@ -113,9 +113,6 @@ string facename = "Tahoma"
 string text = "RIBOON"
 end type
 
-event clicked;open(w_leaflet)
-end event
-
 type cb_3 from commandbutton within w_principal
 integer x = 183
 integer y = 556
