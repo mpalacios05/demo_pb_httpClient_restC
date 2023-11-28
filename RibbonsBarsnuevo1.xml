@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RibbonBar BuiltinTheme="0" Font="FaceName:Tahoma; TextSize:12">
+  <RibbonItems>
+    <Categories>
+      <Category Text="Principal" Enabled="true" Tag="Home" Visible="true">
+        <Panel Text="Tabs" PictureName="TabsSmall!" Enabled="true" Tag="Tabs" Visible="true">
+          <Group NewLine="true" Visible="true">
+            <SmallButton Text="Cerrar" PictureName="CloseSmall!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Close" PowerTipDescription="Close tab" Tag="Close" Visible="true" Clicked="ue_ButtonCloseClicked" Selected="ue_ButtonCloseSelected" />
+          </Group>
+        </Panel>
+        <Panel Text="Opciones" PictureName="BoardSmall!" Enabled="true" Tag="Boards" Visible="true">
+          <LargeButton Text="Mapa" PictureName="C:\Users\luisavilan\Documents\IMAGENES PARA VIDEO1\webbrowser\mapa.jpg" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Grafico Torta" PowerTipDescription="Grafico tipo Torta" Tag="torta" Visible="true" Clicked="ue_mapa" Selected="ue_torta" />
+          <LargeButton Text="Imprimir Pdf" PictureName="C:\Users\luisavilan\Documents\IMAGENES PARA VIDEO1\webbrowser\print-to-pdf-jpg.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Imprimir Pdf" PowerTipDescription="Imprimir Pdf" Tag="imprimir" Visible="true" Clicked="ue_imprimir" Selected="ue_imprimir1" />
+        </Panel>
+      </Category>
+    </Categories>
+    <TabButtons>
+      <TabButton Text="Minimize" PictureName="ArrowUpSmall!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Minimize" PowerTipDescription="Minimize or maximize RibbonBar." Shortcut="Ctrl+Shift+M" Tag="TabMinimize" Visible="true" Clicked="ue_TabButtonMinimizeClicked" Selected="ue_TabButtonMinimizeSelected"/>
+      <TabButton Text="Help" PictureName="HelpSmall!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Help" PowerTipDescription="Get help." Tag="TabHelp" Visible="true" Clicked="ue_TabButtonHelpClicked" Selected="ue_TabButtonHelpSelected"/>
+    </TabButtons>
+  </RibbonItems>
+</RibbonBar>
